@@ -147,5 +147,5 @@ docker push take0415/hellopy:0.0.1
 docker run -p 4000:80 <username>/<repository>:<tag>
 ```
 ```
-docker run -p 4000:80 take0415/hellopy:0.0.1
+docker run --name test-hellopy -p 4000:80 take0415/hellopy:0.0.1
 ```
